@@ -21,3 +21,22 @@ Install node package
 ```bash
 npm install
 ```
+
+Copy and paste .env.example, change name to .env and generate key 
+
+```bash
+php artisan key:generate
+```
+
+Setting database and migrate
+
+```bash
+php artisan migrate:fresh --seed
+```
+
+Run project
+
+```bash
+php artisan serve
+npm run dev
+```
